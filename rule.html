@@ -9,10 +9,10 @@
         @import url("./css/font.css");
 
         * {color: #ffffffe6;}
-
         body {width: 1280px;margin:0 auto;background: #1F1F1F}
+        @media screen and (max-width: 1280px) {body {width: auto;}h1{margin-left: 15px;}}
         h1 {font: 19px sc4;height: 70px;line-height: 70px;}
-        div > ul {margin: 30px 30px;}
+        div > ul {margin: 30px;}
         div > ul > li {font: 15px sc2;color: #ddddd6;padding: 5px 20px;}
         div > ul > h2 {font: 16px sc1;}
     </style>
@@ -20,7 +20,7 @@
 <body>
     <header><h1>제3기 청소년운영위원회칙</h1></header>
     <div>
-        <ul>
+        <ul style="margin-top: 20px;">
             <h2>제1조(명칭)</h2>
             <li>중구청소년수련관 청소년운영위원회 "윤슬"라고 칭한다.</li>
         </ul>
