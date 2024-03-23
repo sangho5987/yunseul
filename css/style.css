@@ -1,0 +1,9 @@
+@import url("font.css");
+
+* {color: #ffffffe6;}
+
+body {width: 1280px;margin:0 auto;background: #1F1F1F}
+h1 {font: 19px sc4;height: 70px;line-height: 70px;}
+div > ul {margin: 30px 30px;}
+div > ul > li {font: 15px sc2;color: #ddddd6;padding: 5px 20px;}
+div > ul > h2 {font: 16px sc1;}
